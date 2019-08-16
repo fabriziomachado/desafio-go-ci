@@ -22,7 +22,7 @@ steps:
     args:
       - -c
       - |
-        docker image build -f Dockerlie.prod --tag gcr.io/${PROJECT_ID}/greeting:${COMMIT_SHA} .
+        docker image build -f Dockerfile.prod --tag gcr.io/${PROJECT_ID}/greeting:${COMMIT_SHA} .
 
 images:
   - gcr.io/${PROJECT_ID}/greeting:${COMMIT_SHA}
