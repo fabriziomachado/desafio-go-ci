@@ -1,5 +1,7 @@
 # Desafio
 
+## CONTINUOUS INTEGRATION
+
 #### 1 - Crie um aplicativo Go
 - com uma funcção greenting
 - que disponibilize um servidor web na porta 8000
@@ -55,8 +57,7 @@ $ docker run --publish 8000:8000 --name greeeting --rm fbrz/greeting:prod
 ```
 
 #### 4 - Ative o processo de CI no Google Cloud Build para que a cada PR os testes sejam executados
-![CI](/Screen Shot 2019-08-16 at 19.33.32.png)
-
+![CI](ci-cloudbuild.png)
 
 
 #### 5 - Gerar a imagem do aplicativo e publicar no dockerhub
